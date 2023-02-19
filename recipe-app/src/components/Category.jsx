@@ -7,9 +7,9 @@ import {NavLink} from 'react-router-dom';
 function Category() {
     return (
         <List >
-            <NavLink to={'/cuisine/Itialian'}>
+            <NavLink to={'/cuisine/Italian'}>
                 <FaPizzaSlice/>
-                <h4>Itialian</h4>
+                <h4>Italian</h4>
             </NavLink>
             <NavLink to={'/cuisine/American'}>
                 <FaHamburger/>
